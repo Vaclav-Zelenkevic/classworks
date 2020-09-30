@@ -23,9 +23,9 @@ public class EX1 {
 		String loveMessage = "I love you ..."; // char -> int -> binary
 		char[] letters = loveMessage.toCharArray();
 		int[] codedLetters = new int[letters.length];
-		for(int i = 0; i < letters.length; i++) {
-			codedLetters[i] = Integer.toBinaryString(letters[i]);
-		}
+//		for(int i = 0; i < letters.length; i++) {
+//			codedLetters[i] = Integer.toBinaryString(letters[i]);
+//		}
 		System.out.println(Arrays.toString(letters));
 	}
 
