@@ -18,15 +18,16 @@ public class EX1 {
 //		System.out.println(name);
 		int number = 20;
 		String stringNumber = Integer.toString(number);
-		System.out.println(stringNumber);
+		System.out.println(stringNumber.hashCode());
 		
 		String loveMessage = "I love you ..."; // char -> int -> binary
-		char[] letters = loveMessage.toCharArray();
-		int[] codedLetters = new int[letters.length];
-//		for(int i = 0; i < letters.length; i++) {
-//			codedLetters[i] = Integer.toBinaryString(letters[i]);
-//		}
-		System.out.println(Arrays.toString(letters));
+		StringBuilder sb = new StringBuilder();
+		char[] chars = loveMessage.toCharArray();
+		for(char letter: chars) {
+			sb.append(String.format("%8s", Integer.toBinaryString(letter)).replaceAll(" ", "*"));
+		}
+		System.out.println(sb.toString());
+	
 	}
 
 }
