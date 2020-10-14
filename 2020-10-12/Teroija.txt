@@ -1,0 +1,7 @@
+Programmer: Classes, Methods (Test Case) --> modulinis testavimas
+Integracinis testavimas: programuotojas, testuotojas --> daug moduliu kartu
+Sisteminis testavimas: testuotojas --> sistemos funkcionalumas
+JUnit --> testas:
+1. tikslas / rezultatas
+2. Pradine info
+3. diskretumas / turi atitikti technine specifikacija	

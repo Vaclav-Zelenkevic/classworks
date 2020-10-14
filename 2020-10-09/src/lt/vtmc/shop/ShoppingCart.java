@@ -2,14 +2,15 @@ package lt.vtmc.shop;
 
 public class ShoppingCart {
 //	private AbstractProduct[] items;
-	private Product[] productItems;
+	private AbstractProduct[] productItems;
 	private int productIndex = 0; 
-	private Medicine[] medicineItems;
+	private AbstractProduct[] medicineItems;
 	private int medicineIndex = 0; 
-	private Periodical[] periodicalItems;
+	private AbstractProduct[] periodicalItems;
 	private int periodicalIndex = 0; 
 
 	public ShoppingCart() {
+		
 	}
 
 	public void addItem(AbstractProduct item) {
@@ -28,15 +29,15 @@ public class ShoppingCart {
 	
 	public double getTotalPrice() {
 		double totalPrice = 0;
-		for (Product product : productItems) {
+		for (AbstractProduct product : productItems) {
 			totalPrice += product.getPrice();
 		}
-		for (Medicine medicine : medicineItems) {
-			totalPrice += medicine.getPrice();
-		}
-		for (Periodical periodical : periodicalItems) {
-			totalPrice += periodical.getPrice();
-		}
+//		for (Medicine medicine : medicineItems) {
+//			totalPrice += medicine.getPrice();
+//		}
+//		for (Periodical periodical : periodicalItems) {
+//			totalPrice += periodical.getPrice();
+//		}
 		return totalPrice;
 	}
 }
