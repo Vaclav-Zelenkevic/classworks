@@ -1,0 +1,4 @@
+Error message 1
+java.lang.Exception: Error message ...
+	at lt.vtmc.JavaLoggerOne.main(JavaLoggerOne.java:19)
+Error message 2

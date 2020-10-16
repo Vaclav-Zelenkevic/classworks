@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-14T14:40:31.817812600Z</date>
+  <millis>1602686431817</millis>
+  <nanos>812600</nanos>
+  <sequence>4</sequence>
+  <logger>My beutiful logger</logger>
+  <level>SEVERE</level>
+  <class>lt.vtmc.JavaLoggingTwo</class>
+  <method>logToFile</method>
+  <thread>1</thread>
+  <message>PC die ...</message>
+</record>
+<record>
+  <date>2020-10-14T14:40:31.824806400Z</date>
+  <millis>1602686431824</millis>
+  <nanos>806400</nanos>
+  <sequence>5</sequence>
+  <logger>My beutiful logger</logger>
+  <level>FINEST</level>
+  <class>lt.vtmc.JavaLoggingTwo</class>
+  <method>logToFile</method>
+  <thread>1</thread>
+  <message>My method work ...</message>
+</record>
+</log>
