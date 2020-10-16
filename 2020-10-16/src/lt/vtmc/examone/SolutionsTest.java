@@ -5,14 +5,14 @@ import lt.itakademija.exam.CurrencyConverter;
 import lt.itakademija.exam.CurrencyRatesProvider;
 import lt.itakademija.exam.test.BaseTest;
 
-public class SolutionsTest extends BaseTest {
-    @Override
-    protected Bank createBank(CurrencyConverter currencyConverter) {
-        return new BankImplementation(currencyConverter);
-    }
-
-    @Override
-    protected CurrencyConverter createCurrencyConverter(CurrencyRatesProvider currencyRatesProvider) {
-        return new CurrencyConverterImplementation(currencyRatesProvider);
-    }
+public class SolutionsTest  { //extends BaseTest
+//    @Override
+//    protected Bank createBank(CurrencyConverter currencyConverter) {
+//        return new BankImplementation(currencyConverter);
+//    }
+//
+//    @Override
+//    protected CurrencyConverter createCurrencyConverter(CurrencyRatesProvider currencyRatesProvider) {
+//        return new CurrencyConverterImplementation(currencyRatesProvider);
+//    }
 }
