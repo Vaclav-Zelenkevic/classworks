@@ -10,5 +10,4 @@ public class SolutionsTest extends BaseTest {
 		return new ProjectManagerImplementation();
 	}
 
-
 }
