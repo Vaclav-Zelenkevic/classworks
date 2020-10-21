@@ -5,6 +5,7 @@ public class ComputerFacade {
 	private Memory memory;
 	private HardDisk hdd;
 	
+	
 	public ComputerFacade() {
 		this.cpu = new Cpu();
 		this.memory = new Memory();
