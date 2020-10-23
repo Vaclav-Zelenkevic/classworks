@@ -19,6 +19,7 @@ public class JavaRuntime {
 	}
 
 	private static void prinResults(Process process) throws IOException {
+		// TODO
 		FileWriter fw = new FileWriter("result.txt");
 		BufferedReader reader = 
 				new BufferedReader(
