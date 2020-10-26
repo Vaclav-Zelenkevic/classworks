@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Dynamic XML properties file</comment>
+<entry key="surname">Tadinskas</entry>
+<entry key="name">Tadas</entry>
+<entry key="age">45</entry>
+</properties>
