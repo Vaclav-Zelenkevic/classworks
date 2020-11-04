@@ -13,5 +13,7 @@ public class IntegerComparator implements Comparator<Integer> {
 		}
 		return 0;
 	}
+	
+	Comparable
 
 }
