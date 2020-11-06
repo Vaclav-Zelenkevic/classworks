@@ -1,0 +1,14 @@
+Parašyti duomenų struktūros klasę Bag.
+Bag - tai tokia duomenų struktūra, kuri laiko sąrašą elementų, kuriuos galima tik pridėti.
+Bag taip pat realizuoja interfeisą Iterable, kuris leidžia “apeiti” šios duomenų struktūros elementus.
+Bag - tai bendrinis tipas, kuris turi vieną parametrizuojamą tipą E, kuris leidžia nurodyti bet kokį 
+elementų, kurie saugomi Bag elementų sąraše, tipą.
+Šioje klasėje turi būti realizuoti šie metodai:
+
+• isEmpty() - nusako, ar yra bent vienas elementas.
+• size() - grąžina elementų skaičių
+• add(E e) - prideda elementą.
+
+Pademonstruoti, kaip ji veikia su String bei Integer tipo elementais.
+Taip pat turi būti pademonstruota, kaip veikia Iterable implementacija - kad Bag’e esančius 
+elementus galima apeiti naudojant for-each ciklą.
