@@ -6,8 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/zvaclavm/Desktop/h2/bin/h2-1.4.199.jar"/>
-	<classpathentry kind="lib" path="/home/zvaclavm/Videos/exam-2018-third/exam-2018-third.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/home/zvaclavm/Desktop/Programavimo kontrolinis 2020 PT/flightmanager.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
